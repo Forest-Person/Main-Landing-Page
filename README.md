@@ -11,7 +11,9 @@ Filename: fungi-bacteria-logo.jpeg
   Pexels username: Turek
   
 Filename: rock-stack.jpeg
+  
   Source: https://www.pexels.com/photo/stack-of-stones-balancing-on-seashore-7397095/
+  
   Pexels username: Alexander Grigorian
   
  
