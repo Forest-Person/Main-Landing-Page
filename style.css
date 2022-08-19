@@ -1,38 +1,67 @@
-body {
+body html{
 
     display:flex;
     flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+    
+}
+
+.main-header-div {
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 100%;
+    border: 10px solid yellow;
+    
+    
+ 
+   
+    
+    
     
 }
 
 .fungibac-logo {
-
-    max-width: 8em;
+    min-width:4em ;
+    max-height: 8em;
     border-radius: 80%;
+    width: 100%;
     
     
+}
+
+a {
+    text-decoration: none;
 }
 
 .header-container1 {  /* Contains logo and three anchor items. */
 
     display: flex;
-    
     border:4px solid pink;
     justify-content: center;
     align-items: center;
+    flex: 0 1 auto;
+    
 }
 
-.header-img-item  {
+.header1-logo-item  {
 
     border:4px solid blue;
     display: flex;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     justify-content: flex-start;
+    
     
     
 }
 
-.header-anchor-item {
+.header1-anchor-item {
 
     flex:1 1 auto;
     border: 4px solid black;
@@ -40,4 +69,46 @@ body {
     gap:10px;
     justify-content: flex-end;
 }
+
+
+.rock-stack {
+    min-width: 10em;
+    max-height: 20em;
+    border-radius: 5%;
+    width: 100%;
+}
+
+.header-container2 {
+
+    display: flex;
+    border:4px solid green;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.header2-h1-text-button {
+
+    display: flex;
+    flex-direction: column;
+    border:4px solid blue;
+    justify-content: flex-start;
+    flex: 0 1 auto;
+
+
+
+}
+
+.header2-rockstack-img-item {
+
+    display: flex;
+    border: 4px solid pink;
+    justify-content: flex-end;
+    align-self: center;
+    flex:0 1 auto;
+
+
+
+}
+
 
