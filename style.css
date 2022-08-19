@@ -1,0 +1,43 @@
+body {
+
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.fungibac-logo {
+
+    max-width: 8em;
+    border-radius: 80%;
+    
+    
+}
+
+.header-container1 {  /* Contains logo and three anchor items. */
+
+    display: flex;
+    
+    border:4px solid pink;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img-item  {
+
+    border:4px solid blue;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    
+    
+}
+
+.header-anchor-item {
+
+    flex:1 1 auto;
+    border: 4px solid black;
+    display: flex;
+    gap:10px;
+    justify-content: flex-end;
+}
+
