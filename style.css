@@ -6,34 +6,25 @@ body html{
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    
-    
-    
-    
-    
+
 }
 
 .main-header-div {
     justify-content: center;
     align-items: center;
-    flex: 1 1 100%;
+    flex:  1 1 100%;
     border: 10px solid yellow;
-    
-    
- 
-   
-    
-    
-    
+    background-color: #1f2937;
+
 }
 
 .fungibac-logo {
-    min-width:4em ;
-    max-height: 8em;
+    display: flex;
+    max-height: 6em;
     border-radius: 80%;
-    width: 100%;
     
-    
+    align-self: center;
+
 }
 
 a {
@@ -56,7 +47,22 @@ a {
     display: flex;
     flex: 0 1 auto;
     justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     
+
+}
+
+
+
+
+.header1-logo-item h6{
+    flex: 0 0 auto;
+    margin:0px;
+    color: #e5e7eb;
+    font-size: 10px;
     
     
 }
@@ -66,10 +72,15 @@ a {
     flex:1 1 auto;
     border: 4px solid black;
     display: flex;
-    gap:10px;
+    gap:20px;
     justify-content: flex-end;
+    
 }
 
+.header1-anchor-item a {
+    font-size: 18px;
+    color:#e5e7eb;
+}
 
 .rock-stack {
     min-width: 10em;
@@ -82,21 +93,32 @@ a {
 
     display: flex;
     border:4px solid green;
-    
+    flex-direction:row ;
     justify-content: center;
     align-items: center;
 }
 
-.header2-h1-text-button {
-
-    display: flex;
-    flex-direction: column;
+.header-container2-items {
+    display: inline-block;
+    margin: 0%;
+    font-size: 0;   /* Had to set the font size to zero and then manually set font size for element spacing*/
     border:4px solid blue;
-    justify-content: flex-start;
-    flex: 0 1 auto;
+    max-width: 600px;
 
+}
 
+.header-container2 p {
 
+    font-size: 18px;
+    margin: 0%;
+    color:#e5e7eb;
+}
+
+.header-container2 h1 {
+    font-size:48px ;
+    font-weight: 900;
+    margin: 0%;
+    color: #F9FAF8;
 }
 
 .header2-rockstack-img-item {
@@ -107,8 +129,18 @@ a {
     align-self: center;
     flex:0 1 auto;
 
-
-
 }
+
+button {
+
+    background-color: #3882f6;
+    height: 2em;
+    width:6em;
+    border-radius: 10%;
+    color: #F9FAF8;
+    margin-top: 5px;;
+}
+
+
 
 
