@@ -76,7 +76,7 @@ a {
     flex: 0 1 auto;
     margin:0px;
     color: #e5e7eb;
-    font-size: 10px;
+    font-size: 15px;
     max-width: 100%;
     padding: .2em;
     
@@ -92,6 +92,7 @@ a {
     justify-content: flex-end;
     margin-right: 2em;
     max-width: 100%;
+    font-size: 25px;
     
 }
 
