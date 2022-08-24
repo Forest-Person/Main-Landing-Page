@@ -264,7 +264,7 @@ ul {
 .blue-container {
 display: flex;
 flex: 1 1 auto;
-flex-direction: column;
+flex-direction: row;
 margin-bottom: 5rem;
 background-color:#3882f6 ;
 padding:2rem;
@@ -273,26 +273,22 @@ margin-right: 5rem;
 margin-top:-2rem;
 border-radius: 2%;
 min-width: 0;
-
-
-}
-
-.blue-container {
-display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: center;
-flex: 1 1 auto;
-min-width: 0;
-
 
 }
+
+
+
 
 
 .blue-footer-text-div {
 margin-right: 5rem;
 flex: 0 1 auto;
 min-width: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
 
 
 }
@@ -307,6 +303,8 @@ color: #F9FAF8;
     flex: 1 0 auto;
     margin-right: 2rem;
     min-width: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .blue-footer-button button{
@@ -318,6 +316,7 @@ border-radius: 5%;
 .blue-heading {
 
     color: #F9FAF8;
+    margin-bottom: -2rem;
 }
 
 
