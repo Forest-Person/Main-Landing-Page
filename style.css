@@ -247,6 +247,7 @@ ul {
     margin-left: 1rem;
     margin-right: 1rem;
     color:#1f2937;
+    font-style: italic;
 
 
 }
@@ -298,6 +299,7 @@ min-width: 0;
 .blue-paragraph {
 flex: 1 1 auto;
 min-width: 0;
+color: #F9FAF8;
 }
 
 .blue-footer-button{
@@ -312,7 +314,10 @@ border-radius: 5%;
 
 }
 
+.blue-heading {
 
+    color: #F9FAF8;
+}
 
 
 
