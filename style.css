@@ -119,8 +119,8 @@ a {
     margin-bottom:1rem ;
     margin-top: 1rem;
     padding: 2rem;
-    margin-right: 4rem;
-    flex: 1 1 50%;
+    margin-right: 2rem;
+    flex: 1 1 auto;
     
 }
 
@@ -237,15 +237,15 @@ ul {
     justify-content: center;
     align-items: center;
     margin-bottom: 8rem;
-    padding: 100px;
+    padding: 65px;
     
 }
 
 .quote-body {
     flex: 1 1 auto;
     font-size: xx-large;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     color:#1f2937;
 
 
@@ -255,14 +255,62 @@ ul {
     margin-left: 20%;
     font-weight: 600;
     flex: 1 1 auto;
-    margin-top: 0;
+    margin-top: -1rem;
     color: #1f2937;
 }
 
+.blue-container {
+display: flex;
+flex: 1 1 auto;
+flex-direction: column;
+margin-bottom: 5rem;
+background-color:#3882f6 ;
+padding:2rem;
+margin-left: 5rem;
+margin-right: 5rem;
+margin-top:-2rem;
+border-radius: 2%;
+min-width: 0;
 
 
+}
+
+.blue-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex: 1 1 auto;
+min-width: 0;
 
 
+}
+
+
+.blue-footer-text-div {
+margin-right: 5rem;
+flex: 0 1 auto;
+min-width: 0;
+
+
+}
+
+.blue-paragraph {
+flex: 1 1 auto;
+min-width: 0;
+}
+
+.blue-footer-button{
+    flex: 1 0 auto;
+    margin-right: 2rem;
+    min-width: 0;
+}
+
+.blue-footer-button button{
+border:2px solid white ;
+border-radius: 5%;
+
+}
 
 
 
