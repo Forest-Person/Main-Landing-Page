@@ -116,9 +116,11 @@ a {
     flex-direction:row ;
     justify-content: center;
     align-items: center;
-    margin-bottom:5rem ;
-    margin-top: 5rem;
-    
+    margin-bottom:1rem ;
+    margin-top: 1rem;
+    padding: 2rem;
+    margin-right: 4rem;
+    flex: 1 1 50%;
     
 }
 
@@ -127,7 +129,7 @@ a {
     margin: 0%;
     font-size: 0;   /* Had to set the font size to zero and then manually set font size for element spacing*/
     max-width: 600px;
-    padding:20px;
+    padding:1rem;
     
     
 
@@ -172,6 +174,7 @@ button {
 
     display: flex;
     flex-direction: column;
+    
 }
 
 
@@ -181,7 +184,7 @@ button {
     flex: 1 1 auto;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1em;
+    
     font-size:x-large;
     color: #1f2937;
     
@@ -199,7 +202,8 @@ button {
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
     
 }
 .ul-container img{
@@ -218,6 +222,7 @@ button {
     text-align: center;
     font-size: medium;
     font-weight: 900;
+    
 }
 
 ul {
@@ -232,13 +237,15 @@ ul {
     justify-content: center;
     align-items: center;
     margin-bottom: 8rem;
+    padding: 100px;
+    
 }
 
 .quote-body {
     flex: 1 1 auto;
     font-size: xx-large;
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     color:#1f2937;
 
 
